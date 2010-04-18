@@ -1,0 +1,113 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* WhorledAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 1196}}";
+			sepNavSelRange = "{2317, 0}";
+			sepNavVisRange = "{565, 1350}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Whorled */ = {
+		activeExec = 0;
+		executables = (
+			A28E8676117B80D500FD0D24 /* Whorled */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A28E8676117B80D500FD0D24 /* Whorled */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Whorled */;
+		codeSenseManager = A28E867B117B80F500FD0D24 /* Code sense */;
+		executables = (
+			A28E8676117B80D500FD0D24 /* Whorled */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					933,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 293306581;
+			PBXWorkspaceStateSaveDate = 293306581;
+		};
+		perUserProjectItems = {
+			A28E8686117B854F00FD0D24 /* PBXBookmark */ = A28E8686117B854F00FD0D24 /* PBXBookmark */;
+			A28E8687117B854F00FD0D24 /* PBXTextBookmark */ = A28E8687117B854F00FD0D24 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A28E867A117B80F500FD0D24 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A28E8676117B80D500FD0D24 /* Whorled */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Whorled;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A28E867A117B80F500FD0D24 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A28E867B117B80F500FD0D24 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A28E8686117B854F00FD0D24 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WhorledAppDelegate.m */;
+	};
+	A28E8687117B854F00FD0D24 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WhorledAppDelegate.m */;
+		name = "WhorledAppDelegate.m: 93";
+		rLen = 0;
+		rLoc = 2317;
+		rType = 0;
+		vrLen = 1350;
+		vrLoc = 565;
+	};
+}

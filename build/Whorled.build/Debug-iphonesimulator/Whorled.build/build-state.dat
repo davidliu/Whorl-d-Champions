@@ -1,0 +1,883 @@
+TWhorled
+v7
+r0
+t293305352.743041
+cCheck dependencies
+cProcessInfoPlistFile /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Info.plist Whorled-Info.plist
+cCompileXIB /Users/pzy/Dropbox/Whorled/MainWindow.xib
+cCompileXIB /Users/pzy/Dropbox/Whorled/WhorledViewController.xib
+cProcessPCH /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch.gch Whorled_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o /Users/pzy/Dropbox/Whorled/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o /Users/pzy/Dropbox/Whorled/Classes/WhorledAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o /Users/pzy/Dropbox/Whorled/Classes/WhorledViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o /Users/pzy/Dropbox/Whorled/Classes/NumberOfPlayersView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o /Users/pzy/Dropbox/Whorled/Classes/PlayerColors.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o /Users/pzy/Dropbox/Whorled/Classes/Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o /Users/pzy/Dropbox/Whorled/Classes/Group.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o /Users/pzy/Dropbox/Whorled/Classes/WhorledView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/TwistedWhorledView.o /Users/pzy/Dropbox/Whorled/Classes/TwistedWhorledView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled normal i386
+cGenerateDSYMFile /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app.dSYM /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled
+cTouch /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BCA33660000000000000110
+t1271542630
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B9F26A3000000000000007D
+t1268721315
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/Circle.h
+c000000004BCB3B810000000000000400
+t1271610241
+s1024
+i<Foundation/Foundation.h>
+i"State.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/Circle.m
+c000000004BCB43900000000000001508
+t1271612304
+s5384
+i"Circle.h"
+i"WhorledAppDelegate.h"
+i"Group.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.h
+c000000004BCB465100000000000002D1
+t1271613009
+s721
+i<Foundation/Foundation.h>
+i"State.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m
+c000000004BCB46AC00000000000005E4
+t1271613100
+s1508
+i"Group.h"
+i"Circle.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/NumberOfPlayersView.h
+c000000004BCB41880000000000000220
+t1271611784
+s544
+i<UIKit/UIKit.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/NumberOfPlayersView.m
+c000000004BCB41BB000000000000138A
+t1271611835
+s5002
+i"NumberOfPlayersView.h"
+i"PlayerColors.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/PlayerColors.h
+c000000004BCA28D10000000000000100
+t1271539921
+s256
+i<UIKit/UIKit.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/PlayerColors.m
+c000000004BCA28D1000000000000040C
+t1271539921
+s1036
+i"PlayerColors.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/State.h
+c000000004BCA619500000000000000F0
+t1271554453
+s240
+i<Foundation/Foundation.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/TwistedWhorledView.h
+c000000004BCB37960000000000000357
+t1271609238
+s855
+i<UIKit/UIKit.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/TwistedWhorledView.m
+c000000004BCB48D400000000000024D1
+t1271613652
+s9425
+i<QuartzCore/QuartzCore.h>
+i"TwistedWhorledView.h"
+i"WhorledAppDelegate.h"
+i"Group.h"
+i"Circle.h"
+i"PlayerColors.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledAppDelegate.h
+c000000004BCB42210000000000000371
+t1271611937
+s881
+i<UIKit/UIKit.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledAppDelegate.m
+c000000004BCB4A2000000000000008F9
+t1271613984
+s2297
+i"WhorledAppDelegate.h"
+i"WhorledViewController.h"
+i"WhorledView.h"
+i"TwistedWhorledView.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.h
+c000000004BCA53C70000000000000230
+t1271550919
+s560
+i<UIKit/UIKit.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m
+c000000004BCB3B9300000000000018D0
+t1271610259
+s6352
+i<QuartzCore/QuartzCore.h>
+i"WhorledAppDelegate.h"
+i"WhorledView.h"
+i"Group.h"
+i"Circle.h"
+i"PlayerColors.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledViewController.h
+c000000004BCB40CC00000000000001E9
+t1271611596
+s489
+i<UIKit/UIKit.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledViewController.m
+c000000004BCB40A50000000000000686
+t1271611557
+s1670
+i"WhorledViewController.h"
+i"WhorledAppDelegate.h"
+i"NumberOfPlayersView.h"
+
+N/Users/farn-yukhong/Dropbox/Whorled/MainWindow.xib
+c000000004BCA2E2200000000000054FF
+t1271541282
+s21759
+
+N/Users/farn-yukhong/Dropbox/Whorled/WhorledViewController.xib
+c000000004BCB41A20000000000007A02
+t1271611810
+s31234
+
+N/Users/farn-yukhong/Dropbox/Whorled/Whorled_Prefix.pch
+c000000004BCA296A00000000000000B7
+t1271540074
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app
+t1271612562
+s238
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app.dSYM
+t1271549283
+s102
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Info.plist
+t1271549150
+s827
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/MainWindow.nib
+t1271549151
+s1120
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/PkgInfo
+t1271549150
+s8
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled
+t1271612552
+s67472
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/WhorledViewController.nib
+t1271612244
+s2718
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o
+t1271612462
+s25284
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o
+t1271612246
+s16340
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o
+t1271612246
+s31732
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o
+t1271553236
+s8416
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/TwistedWhorledView.o
+t1271612552
+s50800
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Whorled.LinkFileList
+c000000004BCB4354000000000000042C
+t1271612244
+s1068
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o
+t1271612245
+s49268
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o
+t1271612246
+s40316
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o
+t1271612245
+s38940
+
+N/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o
+t1271553235
+s5936
+
+N/Users/farn-yukhong/Dropbox/Whorled/main.m
+c000000004BCA28D1000000000000016C
+t1271539921
+s364
+i<UIKit/UIKit.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/Circle.h
+c000000004BCB3B810000000000000400
+t1271610241
+s1024
+i<Foundation/Foundation.h>
+i"State.h"
+
+N/Users/pzy/Dropbox/Whorled/Classes/Circle.m
+c000000004BCB43900000000000001508
+t1271612304
+s5384
+i"Circle.h"
+i"WhorledAppDelegate.h"
+i"Group.h"
+
+N/Users/pzy/Dropbox/Whorled/Classes/Group.h
+c000000004BCB3B3200000000000002C1
+t1271610162
+s705
+i<Foundation/Foundation.h>
+i"State.h"
+
+N/Users/pzy/Dropbox/Whorled/Classes/Group.m
+c000000004BCB3B4C0000000000000566
+t1271610188
+s1382
+i"Group.h"
+i"Circle.h"
+
+N/Users/pzy/Dropbox/Whorled/Classes/NumberOfPlayersView.h
+c000000004BCB41880000000000000220
+t1271611784
+s544
+i<UIKit/UIKit.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/NumberOfPlayersView.m
+c000000004BCB41BB000000000000138A
+t1271611835
+s5002
+i"NumberOfPlayersView.h"
+i"PlayerColors.h"
+
+N/Users/pzy/Dropbox/Whorled/Classes/PlayerColors.h
+c000000004BCA28D10000000000000100
+t1271539921
+s256
+i<UIKit/UIKit.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/PlayerColors.m
+c000000004BCA28D1000000000000040C
+t1271539921
+s1036
+i"PlayerColors.h"
+
+N/Users/pzy/Dropbox/Whorled/Classes/State.h
+c000000004BCA619500000000000000F0
+t1271554453
+s240
+i<Foundation/Foundation.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/TwistedWhorledView.h
+c000000004BCB37960000000000000357
+t1271609238
+s855
+i<UIKit/UIKit.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/TwistedWhorledView.m
+c000000004BCB448200000000000024C2
+t1271612546
+s9410
+i<QuartzCore/QuartzCore.h>
+i"TwistedWhorledView.h"
+i"WhorledAppDelegate.h"
+i"Group.h"
+i"Circle.h"
+i"PlayerColors.h"
+
+N/Users/pzy/Dropbox/Whorled/Classes/WhorledAppDelegate.h
+c000000004BCB42210000000000000371
+t1271611937
+s881
+i<UIKit/UIKit.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/WhorledAppDelegate.m
+c000000004BCB42850000000000000749
+t1271612037
+s1865
+i"WhorledAppDelegate.h"
+i"WhorledViewController.h"
+i"WhorledView.h"
+i"TwistedWhorledView.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/WhorledView.h
+c000000004BCA53C70000000000000230
+t1271550919
+s560
+i<UIKit/UIKit.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/WhorledView.m
+c000000004BCB3B9300000000000018D0
+t1271610259
+s6352
+i<QuartzCore/QuartzCore.h>
+i"WhorledAppDelegate.h"
+i"WhorledView.h"
+i"Group.h"
+i"Circle.h"
+i"PlayerColors.h"
+
+N/Users/pzy/Dropbox/Whorled/Classes/WhorledViewController.h
+c000000004BCB40CC00000000000001E9
+t1271611596
+s489
+i<UIKit/UIKit.h>
+
+N/Users/pzy/Dropbox/Whorled/Classes/WhorledViewController.m
+c000000004BCB40A50000000000000686
+t1271611557
+s1670
+i"WhorledViewController.h"
+i"WhorledAppDelegate.h"
+i"NumberOfPlayersView.h"
+
+N/Users/pzy/Dropbox/Whorled/MainWindow.xib
+c000000004BCA2E2200000000000054FF
+t1271541282
+s21759
+
+N/Users/pzy/Dropbox/Whorled/WhorledViewController.xib
+c000000004BCB41A20000000000007A02
+t1271611810
+s31234
+
+N/Users/pzy/Dropbox/Whorled/Whorled_Prefix.pch
+c000000004BCA296A00000000000000B7
+t1271540074
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app
+t1271612552
+s238
+
+N/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app.dSYM
+t1271612552
+s102
+
+N/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Info.plist
+t1271549150
+s827
+
+N/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/MainWindow.nib
+t1271549151
+s1120
+
+N/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/PkgInfo
+t1271549150
+s8
+
+N/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled
+t1271612552
+s67472
+
+N/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/WhorledViewController.nib
+t1271612244
+s2718
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o
+t1271612462
+s25284
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o
+t1271612246
+s16340
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o
+t1271612246
+s31732
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o
+t1271553236
+s8416
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/TwistedWhorledView.o
+t1271612552
+s50800
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Whorled.LinkFileList
+c000000004BCB4354000000000000042C
+t1271612244
+s1068
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o
+t1271612245
+s49268
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o
+t1271612246
+s40316
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o
+t1271612245
+s38940
+
+N/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o
+t1271553235
+s5936
+
+N/Users/pzy/Dropbox/Whorled/main.m
+c000000004BCA28D1000000000000016C
+t1271539921
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch.gch
+t1271549153
+s13805456
+
+N/var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch.gch
+t1271553235
+s13805456
+
+NWhorled-Info.plist
+c000000004BC9476E00000000000004FE
+t1271482222
+s1278
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293305352#293305352#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o /Users/farn-yukhong/Dropbox/Whorled/Classes/Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246036.033018
+e293246036.232045
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o
+x/Users/farn-yukhong/Dropbox/Whorled/Classes/Circle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/farn-yukhong/Dropbox/Whorled/Classes/Circle.m293246036#293246036#0(0"0(0#0#52"/Users/farn-yukhong/Dropbox/Whorled/Classes/Circle.m4300911832#1836"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch -c /Users/farn-yukhong/Dropbox/Whorled/Classes/Circle.m -o /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o /Users/pzy/Dropbox/Whorled/Classes/Circle.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293305262.142326
+e293305262.290767
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o
+x/Users/pzy/Dropbox/Whorled/Classes/Circle.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/pzy/Dropbox/Whorled/Classes/Circle.m293305262#293305262#0(0"0(0#0#43"/Users/pzy/Dropbox/Whorled/Classes/Circle.m4300911832#1737"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/Classes/Circle.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Circle.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o /Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246036.087007
+e293246036.179748
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o
+x/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m:61: warning: incomplete implementation of class 'Group'
+o/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m:61: warning: method definition for '-isDead' not found
+lSLF07#2@59"Compile /Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m293246036#293246036#0(215"/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m:61: warning: incomplete implementation of class 'Group'/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m:61: warning: method definition for '-isDead' not found2(22@42"Incomplete implementation of class 'Group'293246036#0#108#0(6@51"/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m293245459#61#0#61#0#38"incomplete implementation of class '*'0(22@41"Method definition for '-isDead' not found293246036#108#107#0(6@51"/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m293245459#61#0#61#0#35"method definition for '*' not found0(0#0#51"/Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m4300911832#1834"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch -c /Users/farn-yukhong/Dropbox/Whorled/Classes/Group.m -o /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o /Users/pzy/Dropbox/Whorled/Classes/Group.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293305046.094792
+e293305046.235081
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o
+x/Users/pzy/Dropbox/Whorled/Classes/Group.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/pzy/Dropbox/Whorled/Classes/Group.m293305046#293305046#0(0"0(0#0#42"/Users/pzy/Dropbox/Whorled/Classes/Group.m4300911832#1735"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/Classes/Group.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Group.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o /Users/farn-yukhong/Dropbox/Whorled/Classes/NumberOfPlayersView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246035.897409
+e293246036.032910
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o
+x/Users/farn-yukhong/Dropbox/Whorled/Classes/NumberOfPlayersView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/farn-yukhong/Dropbox/Whorled/Classes/NumberOfPlayersView.m293246035#293246036#0(0"0(0#0#65"/Users/farn-yukhong/Dropbox/Whorled/Classes/NumberOfPlayersView.m4300911832#1862"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch -c /Users/farn-yukhong/Dropbox/Whorled/Classes/NumberOfPlayersView.m -o /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o /Users/pzy/Dropbox/Whorled/Classes/NumberOfPlayersView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293305045.920981
+e293305046.120927
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o
+x/Users/pzy/Dropbox/Whorled/Classes/NumberOfPlayersView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/pzy/Dropbox/Whorled/Classes/NumberOfPlayersView.m293305045#293305046#0(0"0(0#0#56"/Users/pzy/Dropbox/Whorled/Classes/NumberOfPlayersView.m4300911832#1763"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/Classes/NumberOfPlayersView.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/NumberOfPlayersView.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o /Users/farn-yukhong/Dropbox/Whorled/Classes/PlayerColors.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246035.992215
+e293246036.086907
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o
+x/Users/farn-yukhong/Dropbox/Whorled/Classes/PlayerColors.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/farn-yukhong/Dropbox/Whorled/Classes/PlayerColors.m293246035#293246036#0(0"0(0#0#58"/Users/farn-yukhong/Dropbox/Whorled/Classes/PlayerColors.m4300911832#1848"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch -c /Users/farn-yukhong/Dropbox/Whorled/Classes/PlayerColors.m -o /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o /Users/pzy/Dropbox/Whorled/Classes/PlayerColors.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293241953.705957
+e293241953.787312
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o
+x/Users/pzy/Dropbox/Whorled/Classes/PlayerColors.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/pzy/Dropbox/Whorled/Classes/PlayerColors.m293241953#293241953#0(0"0(0#0#49"/Users/pzy/Dropbox/Whorled/Classes/PlayerColors.m4300911832#1749"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/Classes/PlayerColors.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/PlayerColors.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/TwistedWhorledView.o /Users/farn-yukhong/Dropbox/Whorled/Classes/TwistedWhorledView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/TwistedWhorledView.o /Users/pzy/Dropbox/Whorled/Classes/TwistedWhorledView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293305352.296847
+e293305352.661699
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/TwistedWhorledView.o
+x/Users/pzy/Dropbox/Whorled/Classes/TwistedWhorledView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/pzy/Dropbox/Whorled/Classes/TwistedWhorledView.m293305352#293305352#0(0"0(0#0#55"/Users/pzy/Dropbox/Whorled/Classes/TwistedWhorledView.m4300911832#1761"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/Classes/TwistedWhorledView.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/TwistedWhorledView.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246082.098807
+e293246082.476897
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o
+x/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledAppDelegate.m293246082#293246082#0(0"0(0#0#64"/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledAppDelegate.m4300911832#1860"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch -c /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledAppDelegate.m -o /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o /Users/pzy/Dropbox/Whorled/Classes/WhorledAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293305044.647379
+e293305045.941761
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o
+x/Users/pzy/Dropbox/Whorled/Classes/WhorledAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/pzy/Dropbox/Whorled/Classes/WhorledAppDelegate.m293305044#293305045#0(0"0(0#0#55"/Users/pzy/Dropbox/Whorled/Classes/WhorledAppDelegate.m4300911832#1761"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/Classes/WhorledAppDelegate.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledAppDelegate.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246082.314676
+e293246082.468977
+r0
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o
+x/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m: In function '-[WhorledView drawRect:]':
+o/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m:125: error: request for member 'isDead' in something not a structure or union
+o{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"
+o{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:212:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
+o{standard input}:212:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:209:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:209:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:202:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
+o{standard input}:202:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:197:non-relocatable subtraction expression, "LC5" minus "L00000000001$pb"
+o{standard input}:197:symbol: "LC5" can't be undefined in a subtraction expression
+o{standard input}:192:non-relocatable subtraction expression, "LC4" minus "L00000000001$pb"
+o{standard input}:192:symbol: "LC4" can't be undefined in a subtraction expression
+o{standard input}:172:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+o{standard input}:172:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:155:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:155:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:147:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:147:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:143:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:143:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:136:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:136:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:130:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:130:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:127:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:127:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:108:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:102:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:102:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:99:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:99:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:78:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:78:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASS_WhorledView" minus "L00000000001$pb"
+o{standard input}:74:symbol: "L_OBJC_CLASS_WhorledView" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_WhorledView
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol LC4
+o{standard input}:unknown:Undefined local symbol LC5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+lSLF07#2@65"Compile /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m293246082#293246082#0(5277"/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m: In function '-[WhorledView drawRect:]':/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m:125: error: request for member 'isDead' in something not a structure or union{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:212:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:212:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:209:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000001$pb"{standard input}:209:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:202:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"{standard input}:202:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:197:non-relocatable subtraction expression, "LC5" minus "L00000000001$pb"{standard input}:197:symbol: "LC5" can't be undefined in a subtraction expression{standard input}:192:non-relocatable subtraction expression, "LC4" minus "L00000000001$pb"{standard input}:192:symbol: "LC4" can't be undefined in a subtraction expression{standard input}:172:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"{standard input}:172:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:155:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:155:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:147:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:147:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:143:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000001$pb"{standard input}:143:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:136:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:136:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:130:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:130:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:127:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000001$pb"{standard input}:127:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:108:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:108:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:102:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:102:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:99:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"{standard input}:99:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:78:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:78:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:74:non-relocatable subtraction expression, "L_OBJC_CLASS_WhorledView" minus "L00000000001$pb"{standard input}:74:symbol: "L_OBJC_CLASS_WhorledView" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_WhorledView{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol LC4{standard input}:unknown:Undefined local symbol LC5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_81(4@65"Request for member 'isDead' in something not a structure or union293246082#99#136#0(6@57"/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m293243864#125#0#125#0#0"0(0#0#57"/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m4300911832#1846"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch -c /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledView.m -o /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o1#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o /Users/pzy/Dropbox/Whorled/Classes/WhorledView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293305046.121036
+e293305046.398756
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o
+x/Users/pzy/Dropbox/Whorled/Classes/WhorledView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/pzy/Dropbox/Whorled/Classes/WhorledView.m293305046#293305046#0(0"0(0#0#48"/Users/pzy/Dropbox/Whorled/Classes/WhorledView.m4300911832#1747"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/Classes/WhorledView.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledView.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246035.884417
+e293246035.992101
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o
+x/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledViewController.m293246035#293246035#0(0"0(0#0#67"/Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledViewController.m4300911832#1866"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch -c /Users/farn-yukhong/Dropbox/Whorled/Classes/WhorledViewController.m -o /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o /Users/pzy/Dropbox/Whorled/Classes/WhorledViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293305044.649489
+e293305045.920836
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o
+x/Users/pzy/Dropbox/Whorled/Classes/WhorledViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/pzy/Dropbox/Whorled/Classes/WhorledViewController.m293305044#293305045#0(0"0(0#0#58"/Users/pzy/Dropbox/Whorled/Classes/WhorledViewController.m4300911832#1767"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/Classes/WhorledViewController.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/WhorledViewController.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o /Users/farn-yukhong/Dropbox/Whorled/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246035.787218
+e293246035.897291
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o
+x/Users/farn-yukhong/Dropbox/Whorled/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/farn-yukhong/Dropbox/Whorled/main.m293246035#293246035#0(0"0(0#0#42"/Users/farn-yukhong/Dropbox/Whorled/main.m4300911832#1824"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch -c /Users/farn-yukhong/Dropbox/Whorled/main.m -o /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o /Users/pzy/Dropbox/Whorled/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293241953.234046
+e293241953.374309
+r1
+xCompileC
+xbuild/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o
+x/Users/pzy/Dropbox/Whorled/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/pzy/Dropbox/Whorled/main.m293241953#293241953#0(0"0(0#0#33"/Users/pzy/Dropbox/Whorled/main.m4300911832#1725"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -include /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch -c /Users/pzy/Dropbox/Whorled/main.m -o /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/farn-yukhong/Dropbox/Whorled/MainWindow.xib
+r0
+
+CCompileXIB /Users/farn-yukhong/Dropbox/Whorled/WhorledViewController.xib
+r0
+
+CCompileXIB /Users/pzy/Dropbox/Whorled/MainWindow.xib
+s293241950.178975
+e293241951.124932
+r1
+xCompileXIB
+x/Users/pzy/Dropbox/Whorled/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib293241950#293241951#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#41"/Users/pzy/Dropbox/Whorled/MainWindow.xib4300911832#444"    cd /Users/pzy/Dropbox/Whorled    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/MainWindow.nib /Users/pzy/Dropbox/Whorled/MainWindow.xib0#
+
+CCompileXIB /Users/pzy/Dropbox/Whorled/WhorledViewController.xib
+s293305044.245737
+e293305044.647022
+r1
+xCompileXIB
+x/Users/pzy/Dropbox/Whorled/WhorledViewController.xib
+lSLF07#2@36"CompileXIB WhorledViewController.xib293305044#293305044#0(0"0(0#0#52"/Users/pzy/Dropbox/Whorled/WhorledViewController.xib28147931469840496#466"    cd /Users/pzy/Dropbox/Whorled    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/WhorledViewController.nib /Users/pzy/Dropbox/Whorled/WhorledViewController.xib0#
+
+CGenerateDSYMFile /Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app.dSYM /Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled
+r0
+
+CGenerateDSYMFile /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app.dSYM /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled
+s293305352.698856
+e293305352.739457
+r1
+xGenerateDSYMFile
+x/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app.dSYM
+x/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Whorled.app.dSYM build/Debug-iphonesimulator/Whorled.app/Whorled293305352#293305352#0(0"0(0#0#74"/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled4300911832#347"    cd /Users/pzy/Dropbox/Whorled    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled -o /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app.dSYM0#
+
+CLd /Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled normal i386
+r0
+
+CLd /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled normal i386
+s293305352.661797
+e293305352.698749
+r1
+xLd
+x/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled
+xnormal
+xi386
+lSLF07#2@79"Link /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled293305352#293305352#0(0"0(0#0#0"4300911832#802"    cd /Users/pzy/Dropbox/Whorled    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -filelist /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Objects-normal/i386/Whorled.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Whorled0#
+
+CProcessInfoPlistFile /Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Info.plist Whorled-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Info.plist Whorled-Info.plist
+s293241950.118145
+e293241950.178863
+r1
+xProcessInfoPlistFile
+x/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Info.plist
+xWhorled-Info.plist
+lSLF07#2@26"Process Whorled-Info.plist293241950#293241950#0(0"0(0#0#45"/Users/pzy/Dropbox/Whorled/Whorled-Info.plist4300911832#443"    cd /Users/pzy/Dropbox/Whorled    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Whorled-Info.plist -genpkginfo /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app/Info.plist0#
+
+CProcessPCH /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch.gch Whorled_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293241951.216276
+e293241953.233859
+r1
+xProcessPCH
+x/var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch.gch
+xWhorled_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Whorled_Prefix.pch293241951#293241953#0(0"0(0#0#45"/Users/pzy/Dropbox/Whorled/Whorled_Prefix.pch4300911832#1629"    cd /Users/pzy/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/pzy/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -c /Users/pzy/Dropbox/Whorled/Whorled_Prefix.pch -o /var/folders/Cf/CfwdoRtlF8WmxuvrPWbzr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-ebcgpjggshonxnftovechbxdtkvp/Whorled_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch.gch Whorled_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293246034.290485
+e293246035.787010
+r1
+xProcessPCH
+x/var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch.gch
+xWhorled_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Whorled_Prefix.pch293246034#293246035#0(0"0(0#0#54"/Users/farn-yukhong/Dropbox/Whorled/Whorled_Prefix.pch4300911832#1719"    cd /Users/farn-yukhong/Dropbox/Whorled    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-generated-files.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-own-target-headers.hmap -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-all-target-headers.hmap -iquote /Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/Whorled-project-headers.hmap -F/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator -I/Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/include -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources/i386 -I/Users/farn-yukhong/Dropbox/Whorled/build/Whorled.build/Debug-iphonesimulator/Whorled.build/DerivedSources -c /Users/farn-yukhong/Dropbox/Whorled/Whorled_Prefix.pch -o /var/folders/w+/w+9dGce-FEO4RhUbywDzAk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Whorled_Prefix-dakecsijeyeiidbmulozvlthpolh/Whorled_Prefix.pch.gch0#
+
+CTouch /Users/farn-yukhong/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app
+r0
+
+CTouch /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app
+s293305352.739556
+e293305352.742989
+r1
+xTouch
+x/Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app
+lSLF07#2@72"Touch /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app293305352#293305352#0(0"0(0#0#0"4300911832#254"    cd /Users/pzy/Dropbox/Whorled    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pzy/Dropbox/Whorled/build/Debug-iphonesimulator/Whorled.app0#
+
